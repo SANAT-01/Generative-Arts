@@ -1,0 +1,34 @@
+#canvas1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(236, 236, 241);
+  }
+
+.container {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 100px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+  }
+
+#circle {
+    height: 200px;
+    align-items: center;
+  }
+  
+  label[for="size-slider"] {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+  }
